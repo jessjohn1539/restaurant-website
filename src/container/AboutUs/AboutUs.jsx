@@ -13,7 +13,8 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} className="spoon__img" alt="about_spoon" />
-        <p className="p__opensans">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et.</p>
+        <p className="p__opensans">
+At our restaurant, we are passionate about creating unforgettable dining moments. With our dedication to quality ingredients and exceptional service, we strive to deliver a culinary journey that surpasses expectations.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -24,7 +25,8 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} className="spoon__img" alt="about_spoon" />
-        <p className="p__opensans">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et.</p>
+        <p className="p__opensans">
+Rooted in culinary heritage, our restaurant's story spans decades. From humble beginnings to becoming a beloved culinary destination, our commitment to excellence and innovation has shaped our rich history of delighting taste buds.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>
